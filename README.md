@@ -15,7 +15,11 @@ Para ter acesso a esse conteúdo basta ter o GitHub em instalado sua máquina e 
 
 - git init
 - git clone https://github.com/luizkof/Metodos-Numericos
+```
+    git init
+    git clone https://github.com/luizkof/Metodos-Numericos
 
+```
 
 Pronto já tem todo projeto em sua máquina. Aproveite!
 
@@ -67,7 +71,7 @@ Em seguida basta executar a seguinte linha de comando no terminal, já dentro da
 
 O resultado será salvo em um arquivo chamado resultado.txt. 
 
-## Construido com:
+## Projeto feito com:
 
 * [Python](https://www.python.org/) 
 * [MatPlot](https://matplotlib.org/) 
@@ -86,4 +90,5 @@ Usamos o GitHub para controle de versão. Veja mais em https://github.com/luizko
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
