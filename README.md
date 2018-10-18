@@ -55,9 +55,8 @@ Para executar é bem simples, basta escrever o a função que deseja calcula pon
 - Metodo Euler,Euler Inverso,Euler Aprimorado e Runge-Kutta: Recebe como entrada os valores y(0),t(0), h, quantidade de passos, a função. E
 calcule cada passo do método, onde h é o incremento
 
-```
-
-eadsa asdsa asdasvavs 
+```s
+Give an example
 ```
 
 - Mettodo Adam-Bashforth, Adam-Multon, Fórmula Inversa: Recebe como entrada a lista de valores de y,t(0), h, quantidade de passos, a função,
