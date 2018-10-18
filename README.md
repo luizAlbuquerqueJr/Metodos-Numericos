@@ -1,13 +1,15 @@
 # Métodos Numéricos 
 
 O projeto aqui presente prevê pontos posteriores de uma função f(x) dado um ponto (ou mais) e sua respectiva função derivada. Tal previsão pode ser feita utilizando um dos metodos seguintes:
-    - Método de Euler
-    - Método de Euler Inverso
-    - Método de Euler Aprimorado
-    - Método de Runge-Kutta
-    - Método de Adams-Bashforth
-    - Método de Adams-Moulton
-    - Método de Diferenciação Inversa
+- Método de Euler
+- Método de Euler Inverso
+- Método de Euler Aprimorado
+- Método de Runge-Kutta
+- Método de Adams-Bashforth
+- Método de Adams-Moulton
+- Método de Diferenciação Inversa
+
+
 
 
 ## Começando
