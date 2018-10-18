@@ -53,14 +53,31 @@ End with an example of getting some data out of the system or using it for a lit
 Para executar é bem simples, basta escrever o a função que deseja calcula pontos posteriores.
 É necessário seguir o seguinte padrão: 
 - Metodo Euler,Euler Inverso,Euler Aprimorado e Runge-Kutta: Recebe como entrada os valores y(0),t(0), h, quantidade de passos, a função. E
-calcule cada passo do método, onde h é o incremento
+calcule cada passo do método, onde h é o incremento. Exemplos:
 
-```s
-Give an example
+```
+    euler 0 0 0.1 20 1-t+4*y
+    euler_inverso 0 0 0.1 20 1-t+4*y
+    euler_aprimorado 0 0 0.1 20 1-t+4*y
+    runge_kutta 0 0 0.1 20 1-t+4*y
+
 ```
 
 - Mettodo Adam-Bashforth, Adam-Multon, Fórmula Inversa: Recebe como entrada a lista de valores de y,t(0), h, quantidade de passos, a função,
-a ordem (de 2 a 8). E calcule cada passo do método.Também pode obter os valores iniciais por outros metodos
+a ordem (de 2 a 8). E calcule cada passo do método.Também pode obter os valores iniciais por outros metodos. Exemplos:
+
+```
+adam_bashforth 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
+adam_bashforth_by_euler_inverso 0 0 0.1 20 1-t+4*y 6
+adam_multon 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
+adam_multon_by_runge_kutta 0 0 0.1 20 1-t+4*y 6
+formula_inversa 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
+formula_inversa_by_euler 0 0 0.1 20 1-t+4*y 6
+formula_inversa_by_runge_kutta 0 0 0.1 20 1-t+4*y 6
+```
+
+Os métodos devem ser escrito exatamente dessa forma( mesmo caractéres)
+
 
 
 ### Break down into end to end tests
