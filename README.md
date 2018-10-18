@@ -1,7 +1,7 @@
 # Métodos Numéricos 
 
-O projeto aqui presente prevê pontos posteriores de f(x) dado um ponto (ou mais) e sua respectiva função derivada.Tal prrevisão pode ser feita 
-utilizando um dos metodos seguintes:
+O projeto aqui presente prevê pontos posteriores de uma função f(x) dado um ponto (ou mais) e sua respectiva função derivada. Tal previsão pode ser feita utilizando um dos metodos seguintes:
+    <a>ola<a>
     *Método de Euler
     *Método de Euler Inverso
     *Método de Euler Aprimorado
@@ -95,3 +95,4 @@ Usamos o GitHub para controle de versão. Veja mais em https://github.com/luizko
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
+as
