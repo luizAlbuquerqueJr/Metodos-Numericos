@@ -13,8 +13,8 @@ O projeto aqui presente prevê pontos posteriores de uma função f(x) dado um p
 
 Para ter acesso a esse conteúdo basta ter o GitHub em instalado sua máquina e inserir os seguintes comandos:
 
--git init
--git clone https://github.com/luizkof/Metodos-Numericos
+- git init
+- git clone https://github.com/luizkof/Metodos-Numericos
 
 
 Pronto já tem todo projeto em sua máquina. Aproveite!
@@ -33,10 +33,10 @@ Tendo o projeto em sua máquina, bastar ter os sequintes requisitos
 
 ## Executando
 
-Para executar é bem simples, basta escrever o a função que deseja calcula pontos posteriores.
+Para executar é bem simples, basta escrever a função que deseja calcular pontos posteriores. 
 É necessário seguir o seguinte padrão: 
-- Metodo Euler,Euler Inverso,Euler Aprimorado e Runge-Kutta: Recebe como entrada os valores y(0),t(0), h, quantidade de passos, a função. E
-calcule cada passo do método, onde h é o incremento. Exemplos:
+- Metodo Euler, Euler Inverso, Euler Aprimorado e Runge-Kutta: recebem como entrada os valores y(0),t(0), h, quantidade de passos, a função. E
+calcula cada passo do método, onde h é o incremento. Exemplos:
 
 ```
     euler 0 0 0.1 20 1-t+4*y
@@ -46,8 +46,8 @@ calcule cada passo do método, onde h é o incremento. Exemplos:
 
 ```
 
-- Mettodo Adam-Bashforth, Adam-Multon, Fórmula Inversa: Recebe como entrada a lista de valores de y,t(0), h, quantidade de passos, a função,
-a ordem (de 2 a 8). E calcule cada passo do método.Também pode obter os valores iniciais por outros metodos. Exemplos:
+- Mettodo Adam-Bashforth, Adam-Multon, Fórmula Inversa: recebem como entrada a lista de valores de y,t(0), h, quantidade de passos, a função,
+a ordem (de 2 a 8). E calcula cada passo do método.Também pode obter os valores iniciais por outros metodos. Exemplos:
 
 ```
     adam_bashforth 0.0 0.1 0.23 0.402 0.6328 0 0.1 20 1-t+4*y 6
@@ -59,11 +59,13 @@ a ordem (de 2 a 8). E calcule cada passo do método.Também pode obter os valore
     formula_inversa_by_runge_kutta 0 0 0.1 20 1-t+4*y 6
 ```
 
-Os métodos devem ser escrito exatamente dessa forma( mesmo caractéres).
-Em seguida basta executar a seguinte linha de comando no terminal dentro da pasta que está o projeto:
+Os métodos devem ser escrito exatamente dessa forma (iguais caractéres).
+Em seguida basta executar a seguinte linha de comando no terminal, já dentro da pasta que está o projeto:
 ```
     python metodos.py
 ```
+
+O resultado será salvo em um arquivo chamado resultado.txt. 
 
 ## Construido com:
 
@@ -73,10 +75,10 @@ Em seguida basta executar a seguinte linha de comando no terminal dentro da past
 
 
 
-## Versioning
+## Versionamento
 Usamos o GitHub para controle de versão. Veja mais em https://github.com/luizkof/Metodos-Numericos.
 
-## Authors
+## Autor
 
 * **Luiz Albuquerque** - *Initial work* - [PurpleBooth](https://github.com/luizkof)
 
@@ -84,5 +86,4 @@ Usamos o GitHub para controle de versão. Veja mais em https://github.com/luizko
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 
