@@ -13,8 +13,6 @@ O projeto aqui presente prevê pontos posteriores de uma função f(x) dado um p
 
 Para ter acesso a esse conteúdo basta ter o GitHub em instalado sua máquina e inserir os seguintes comandos:
 
-- git init
-- git clone https://github.com/luizkof/Metodos-Numericos
 ```
     git init
     git clone https://github.com/luizkof/Metodos-Numericos
