@@ -15,8 +15,10 @@ O projeto aqui presente prevê pontos posteriores de uma função f(x) dado um p
 ## Começando
 
 Para ter acesso a esse conteúdo basta ter o GitHub em instalado sua máquina e inserir os seguintes comandos:
-git init
-git clone https://github.com/luizkof/Metodos-Numericos
+
+-git init
+-git clone https://github.com/luizkof/Metodos-Numericos
+
 
 Pronto já tem todo projeto em sua máquina. Aproveite!
 
@@ -24,8 +26,8 @@ Pronto já tem todo projeto em sua máquina. Aproveite!
 
 Tendo o projeto em sua máquina, bastar ter os sequintes requisitos
 
-Python 2.7.15 (ou versões superiores) já instalado
-As bibliotecas Matplotlib Numpy e Sympy já instaladas
+- Python 2.7.15 (ou versões superiores) já instalado
+- As bibliotecas Matplotlib Numpy e Sympy já instaladas
 
 
 ### Instladno
@@ -50,7 +52,14 @@ End with an example of getting some data out of the system or using it for a lit
 
 Para executar é bem simples, basta escrever o a função que deseja calcula pontos posteriores.
 É necessário seguir o seguinte padrão: 
+- Metodo Euler,Euler Inverso,Euler Aprimorado e Runge-Kutta: Recebe como entrada os valores y(0),t(0), h, quantidade de passos, a função. E
+calcule cada passo do método, onde h é o incremento
+```ruby
+eadsa asdsa asdasvavs 
+```
 
+- Mettodo Adam-Bashforth, Adam-Multon, Fórmula Inversa: Recebe como entrada a lista de valores de y,t(0), h, quantidade de passos, a função,
+a ordem (de 2 a 8). E calcule cada passo do método.Também pode obter os valores iniciais por outros metodos
 
 
 ### Break down into end to end tests
