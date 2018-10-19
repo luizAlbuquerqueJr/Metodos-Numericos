@@ -35,7 +35,7 @@ Tendo o projeto em sua máquina, bastar ter os sequintes requisitos
 
 ## Executando
 
-Para executar é bem simples, basta escrever a função que deseja calcular pontos posteriores. 
+Para executar é bem simples, basta escrever a função que deseja calcular pontos posteriores no arquivo entrada.txt. 
 É necessário seguir o seguinte padrão: 
 - Metodo Euler, Euler Inverso, Euler Aprimorado e Runge-Kutta: recebem como entrada os valores y(0),t(0), h, quantidade de passos, a função. E
 calcula cada passo do método, onde h é o incremento. Exemplos:
@@ -68,6 +68,7 @@ Em seguida basta executar a seguinte linha de comando no terminal, já dentro da
 ```
 
 O resultado será salvo em um arquivo chamado resultado.txt. 
+Será salvo as imagens na pasta imgs com o nome  igual ao numero da linha que ocupava no arquivo entrada
 
 ## Projeto feito com:
 
